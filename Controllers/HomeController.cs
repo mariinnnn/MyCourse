@@ -18,7 +18,7 @@ namespace MyCourse.Controllers
 
         public IActionResult Index()
         {
-            return Content("Sono nell'index dell homepage");
+            return View();
         }
 
         public IActionResult Error()
